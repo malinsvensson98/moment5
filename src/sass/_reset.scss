@@ -1,0 +1,19 @@
+/* Delete all the already set margins */
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+.container,
+dd {
+    margin: 0;
+    padding: 0;
+}

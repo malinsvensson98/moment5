@@ -1,0 +1,15 @@
+
+
+// Länkfärg
+a:hover {
+    color: $logo-color;
+}
+
+// Knappar
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    font-size: 1em;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }

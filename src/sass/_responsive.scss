@@ -1,0 +1,39 @@
+// Making the website responsive
+@media all and (max-width: 30000px) {
+    .topnav {
+        display: none;
+    }
+    .huvudmeny {
+        display: block;
+    }
+    .storfooter {
+        display: block;
+    }
+    .litenfooter {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .storfooter {
+        display: none;
+    }
+    .litenfooter {
+        display: block;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .topnav {
+        display: block;
+    }
+    .huvudmeny {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
